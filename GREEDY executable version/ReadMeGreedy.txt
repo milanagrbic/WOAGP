@@ -5,7 +5,7 @@ greedy -f ../Instances/preprocessed instances/MinArea/min-100-1_D1.txt -alg 0 -g
 
 -alg: type of algorithm:
       0: pure Greedy
-      2: Greedy + CPLEX
+      2: Greedy + CPLEX (In case if you want test this variant, please contact the corresponding author).
 
 -greedy: type of the greedy method
          0: existing
@@ -16,8 +16,8 @@ greedy -f ../Instances/preprocessed instances/MinArea/min-100-1_D1.txt -alg 0 -g
           if partial == 0, then run pure CPLEX model 
  
 w_type: type of weight involved into benchmarks 
-        0: point-based related weights
-        1: topologically-based related weights
+        0: point-based related weights 
+        1: topologically-based related weights 
   
 
 
